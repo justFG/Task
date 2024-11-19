@@ -154,7 +154,7 @@ img.nav {
     margin: 20px;
     display:grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 20px;
 }
 .company p{
     font-family: Work Sans, Arial, sans-serif;
@@ -165,16 +165,17 @@ img.nav {
     max-width: 300px;
 }
 .title {
-    max-width: 300px;
+    width: 285px;
 }
 .complist {    
-    width: 690px;
-    grid-area:span 1 / span 2;
+    width: 610px;
 }
-.complist ul {
-    display: flex;
-    list-style: none;
-  }
-.complist li {
-    margin-left: 30px;
-  }
+.complist img{
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding: 10px;
+}
+.infos {
+    
+}

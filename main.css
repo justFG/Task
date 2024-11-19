@@ -177,5 +177,64 @@ img.nav {
     padding: 10px;
 }
 .infos {
+    background: #e5faf8;
+}
+.info {
+    padding: 50px 0 0 0;
+    max-width: 1015px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto
+}
+.info_title {
+    max-width: 300px;
+}
+.left {
+    width: 507.5px;
+}
+.right {
+    width: 507.5px;
+}
+.title_h{
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 44.2px;
+    width: 450px;
+}
+.title_p {
+    width: 400px;
+    font-size: 14px;
+    margin-bottom: 60px;
+    line-height: 24px;
+}
+.bglogo {
     
+}
+
+
+
+
+
+
+.coun_title {
+    margin: 100px auto;
+    width: 500px;
+}
+.coun_title h1{
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 39px;
+    color: #00B39B;
+    text-align: center;
+}
+.coun_title p{
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #747474;
+    text-align: center;
+    width: 450px;
 }

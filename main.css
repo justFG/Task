@@ -15,6 +15,7 @@ position: fixed;
  top: 0;
  left: 0;
  width: 100%;
+ z-index: 3;
 }
 img.nav {
     max-width: 100%;
@@ -48,8 +49,14 @@ img.nav {
 .career {
     color: #9FACAA;
 }
+.career:hover {
+    color: #00b39b;
+}
 .departments {
     color: #9FACAA;
+}
+.departments:hover {
+    color: #00b39b;
 }
 .hat {
     max-width: 1015px;
@@ -180,7 +187,7 @@ img.nav {
     padding: 10px;
 }
 .infos {
-    background: #e5faf8;
+    background: #d9f7f5;
 }
 .info {
     padding: 50px 0 0 0;
@@ -194,9 +201,12 @@ img.nav {
 }
 .left {
     width: 507.5px;
+    height: 562px;
 }
 .right {
     width: 507.5px;
+    display: flex;
+    gap: 30px;
 }
 .title_h{
     font-family: Work Sans, Arial, sans-serif;
@@ -211,13 +221,84 @@ img.nav {
     margin-bottom: 60px;
     line-height: 24px;
 }
-/* .bglogo {} */
-
-
-
-
-
-
+.bglogo {
+    position: absolute;
+    left: -18px;
+}
+.rtitle {
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #00B39B;
+    line-height: 31.2px;
+    text-align: center;
+    margin: 0;
+}
+.rdesc {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    color: #747474;
+}
+.flag {
+    background-color: #FFFFFF;
+    height: 250px;
+    width: 218px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.flag img{
+    width: 35px;
+    height: 40px;
+}
+#flagicon {
+    padding: 25px 91.5px 20px 91.5px;
+}
+.patients {
+    margin-top: -20px;
+    background-color: #FFFFFF;
+    height: 250px;
+    width: 218px;
+    border-radius: 7px;
+}
+.patients img{
+    width: 40px;
+    height: 32px;
+}
+#picon {
+    padding: 25px 91.5px 20px 91.5px; 
+}
+.visits {
+    
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: 250px;
+    width: 218px;
+    border-radius: 7px;
+}
+.visits img{
+    width: 40px;
+    height: 40px;
+}
+#vicon {
+    padding: 25px 91.5px 20px 91.5px; 
+}
+.doctors {
+    
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    height: 250px;
+    width: 218px;
+    border-radius: 7px;
+}
+.doctors img{
+    width: 40px;
+    height: 40px;
+}
+#dicon {
+    padding: 25px 91.5px 20px 91.5px; 
+}
 .coun_title {
     margin: 100px auto;
     width: 500px;
@@ -294,7 +375,7 @@ img.nav {
     font-family: Roboto, Arial, sans-serif;
     font-size: 12px;
     font-weight: 700;
-    padding:10px 12px;
+    padding:12px 20px;
     border-radius: 4px;
     color: #edf5ff;
     background-color: #3d83e0;

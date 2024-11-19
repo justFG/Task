@@ -6,6 +6,9 @@ h1 {
     font-family: Work Sans, Arial, sans-serif;
     color: #00b39b;
 }
+a {
+    text-decoration: none;
+}
 .nav {
 background-color: #eaeaea;
 position: fixed;
@@ -184,7 +187,7 @@ img.nav {
     max-width: 1015px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: auto auto
+    grid-template-columns: auto auto;
 }
 .info_title {
     max-width: 300px;
@@ -208,9 +211,7 @@ img.nav {
     margin-bottom: 60px;
     line-height: 24px;
 }
-.bglogo {
-    
-}
+/* .bglogo {} */
 
 
 
@@ -237,4 +238,83 @@ img.nav {
     color: #747474;
     text-align: center;
     width: 450px;
+}
+.countries_grid {
+    max-width: 970px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+.countries_grid img{
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.payscard {
+    width: 311px;
+    background-color: #f7f7f7;
+    border-radius: 7px;
+}
+.payscard img{
+    width: 311px;
+    height: 270px;
+}
+.payscard p{
+    padding-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    color: #747474;
+}
+.warsaw {
+    height: 45px;
+}
+.istanbul {
+    height: 45px;
+}
+.curitiba {
+    height: 45px;
+}
+.bogota {
+    height: 45px;
+}
+.joinus {
+    width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+.joinus h1{
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 39px;
+    color: #333333;
+    text-align: center;
+}
+#joinusbutton {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    padding:10px 12px;
+    border-radius: 4px;
+    color: #edf5ff;
+    background-color: #3d83e0;
+    border: none;
+}
+#joinusbutton:hover {
+    background-color: #1762c7; 
+}
+.border {
+    height: 0.1px;
+    background-color: #eef2f2;
+    margin-bottom: 35px;
+}
+.footerdiv p{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #ABABAB;
+    line-height: 15.6px;
+}
+.footerdiv a{
+    color: #3D83DF;
 }

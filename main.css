@@ -17,10 +17,6 @@ position: fixed;
  width: 100%;
  z-index: 3;
 }
-img.nav {
-    max-width: 100%;
-    height: auto; 
-}
 .main-top {
     padding: 0 20px;
     max-width: 980px;
